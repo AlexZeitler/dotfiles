@@ -1,0 +1,22 @@
+# Backup, Swap und Undo Files
+*.swp
+*.swo
+*.swm
+*.un~
+*.bak
+*.tmp
+
+# Session Files
+Session.vim
+
+# Plugin Manager (Lazy, Packer, Plug) generated Files
+# lazy-lock.json        # there are some pinned versions so we don't ignore it right now
+plugin/packer_compiled.lua
+
+# Local Settings
+lua/custom/*local*.lua
+lua/*/local.lua
+
+# LSP/TreeSitter/Mason/etc. Caches
+.cache/
+
