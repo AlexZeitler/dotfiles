@@ -19,6 +19,7 @@ return {
   opts = {
     -- Define your formatters
     formatters_by_ft = {
+      cs = { "csharpier" },
       lua = { "stylua" },
       python = { "isort", "black" },
       html = { "prettierd" },
